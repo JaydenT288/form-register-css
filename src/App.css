@@ -71,12 +71,16 @@ input:focus{
   justify-content: space-between;
   white-space: 'no wrap';
   font-size: 12px;
-  
 }
 
 .agreement-wrap p{
   width: 50%;
   white-space: 'no wrap';
+}
+
+.agreement-wrap a{
+  text-decoration: none;
+  color: #00BFFF;
 }
 
 input[type=checkbox]{
@@ -128,6 +132,13 @@ button{
   background-color: #228B22;
   color: white;
   font-size: 18px;
+}
+
+.blue{
+  background-color: #8bb0f2;
+  color:white;
+  border-radius: 5px;
+  padding: 1px 5px;
 }
 
 @media only screen and (max-width: 680px){

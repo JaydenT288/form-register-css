@@ -25,8 +25,7 @@ const SignUp = () => {
                 <label>
                     <input type='checkbox'></input>I agree
                 </label>
-                <p>By cliking Register, you agree to the Terms and Conditions
-                    set out by this site, including our Cookie Use.
+                <p>By cliking <span className='blue'>Register</span>, you agree to the <a href='/'>Terms and Conditions</a> set out by this site, including our Cookie Use.
                 </p>
             </div>
             <div className='button'>
